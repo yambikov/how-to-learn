@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+.brd * {
+  outline: 1px red solid;
+}
 
 .section-title_theme_dark {
   color: white;
