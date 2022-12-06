@@ -7,5 +7,7 @@
 			"path": "../how-to-learn_v1"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "how-to-learn"
+	}
 }

@@ -82,14 +82,11 @@
     <section class="video">
       <h2 class="section-title">Видео на TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-      <ul class="video__iframes">
-        <li class="video__iframe">
-          <iframe src="https://www.youtube.com/embed/arj7oStGLkU?controls=0" title="YouTube video player" width="515" height="316" allowfullscreen></iframe>
-        </li>
-        <li class="video__iframe">
-          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0" title="YouTube video player" width="515" height="316" allowfullscreen></iframe>
-        </li>
-      </ul>
+      <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+       
+      </div>
     </section>
 
     <section class="oakley">
@@ -270,12 +267,12 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <nav class="resources__logo-zone">
+      <div class="resources__logo-zone">
         <a class="resources__link" href="#"><img class="resources__logo " src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
         <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Эн плюс один"></a>
         <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
         <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
-      </nav>
+      </div>
     </section>
   </main>
   <footer class="footer">
@@ -286,18 +283,19 @@
       </div>
       <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
-        <div class="footer__column-links">
-          <a class="footer__column-link" href="#">Главная</a>
-          <a class="footer__column-link" href="#">Концепция</a>
-          <a class="footer__column-link" href="#">Наставники</a>
-        </div>
-
+        <ul class="footer__column-links">
+          <li><a class="footer__column-link" href="#">Главная</a></li>
+          <li><a class="footer__column-link" href="#">Концепция</a></li>
+          <li><a class="footer__column-link" href="#">Наставники</a></li>
+        </ul>
       </nav>
       <nav class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
-        <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Youtube">YouTube</a>
-        <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка Вконтакте">ВКонтакте</a>
-        <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка TikTok">TikTok</a>
+        <ul class="footer__column-links">
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Youtube">YouTube</a></li>
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка Вконтакте">ВКонтакте</a></li>
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка TikTok">TikTok</a></li>
+      </ul>
       </nav>
     </div>
   </footer>
