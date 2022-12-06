@@ -8,4 +8,5 @@
   background-repeat: no-repeat;
   background-size: contain;
   transform-origin: 58.6% 42.8%;
+  z-index: -1;
 }
